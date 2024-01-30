@@ -1,8 +1,15 @@
+
+
 # Shopify App Template - Node
 
 This is a template for building a [Shopify app](https://shopify.dev/docs/apps/getting-started) using Node and React. It contains the basics for building a Shopify app.
 
 Rather than cloning this repo, you can use your preferred package manager and the Shopify CLI with [these steps](#installing-the-template).
+
+## Basic information  
+
+- The database schema for the additional table is in the web/db directory.
+- Only the app proxy url needs to be manually updated. There is no need to update the api url elsewhere.
 
 ## Benefits
 

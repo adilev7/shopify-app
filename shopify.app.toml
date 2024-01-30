@@ -1,3 +1,28 @@
-# This file stores configurations for your Shopify app.
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
 
+name = "boa-home-task-AL"
+client_id = "bc75968ee7ca33aaa11fa795054145a2"
+application_url = "https://generator-pursue-blind-merge.trycloudflare.com"
+embedded = true
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
 scopes = "read_customers"
+
+[auth]
+redirect_urls = [
+  "https://generator-pursue-blind-merge.trycloudflare.com/auth/callback",
+  "https://generator-pursue-blind-merge.trycloudflare.com/auth/shopify/callback",
+  "https://generator-pursue-blind-merge.trycloudflare.com/api/auth/callback",
+  "https://generator-pursue-blind-merge.trycloudflare.com/.shopify/graphiql/auth/callback"
+]
+
+[webhooks]
+api_version = "2024-01"
+
+[pos]
+embedded = false
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "home-assignment-45.myshopify.com"

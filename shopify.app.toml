@@ -2,7 +2,7 @@
 
 name = "boa-home-task-AL"
 client_id = "bc75968ee7ca33aaa11fa795054145a2"
-application_url = "https://generator-pursue-blind-merge.trycloudflare.com"
+application_url = "https://visitor-trinidad-colleagues-abroad.trycloudflare.com"
 embedded = true
 
 [access_scopes]
@@ -11,10 +11,10 @@ scopes = "read_customers"
 
 [auth]
 redirect_urls = [
-  "https://generator-pursue-blind-merge.trycloudflare.com/auth/callback",
-  "https://generator-pursue-blind-merge.trycloudflare.com/auth/shopify/callback",
-  "https://generator-pursue-blind-merge.trycloudflare.com/api/auth/callback",
-  "https://generator-pursue-blind-merge.trycloudflare.com/.shopify/graphiql/auth/callback"
+  "https://visitor-trinidad-colleagues-abroad.trycloudflare.com/auth/callback",
+  "https://visitor-trinidad-colleagues-abroad.trycloudflare.com/auth/shopify/callback",
+  "https://visitor-trinidad-colleagues-abroad.trycloudflare.com/api/auth/callback",
+  "https://visitor-trinidad-colleagues-abroad.trycloudflare.com/.shopify/graphiql/auth/callback"
 ]
 
 [webhooks]
